@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 function App() {
-  const API = "http://localhost:5001/api";
+  const API = "http://localhost:5002/api";
 
   const [users, setUsers] = useState([]);
   const [name, setName] = useState("");
